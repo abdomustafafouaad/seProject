@@ -1,0 +1,57 @@
+/*******************
+Manager Page
+*******************/
+.managerMainWrapper .page-wrapper {
+    margin-top: 230px;
+}
+
+.managerMainWrapper .card {
+    border: 1px solid #2222221a;
+    border-bottom: 2px solid #188ef4;
+    box-shadow: 3px 5px 10px #22222222;
+    transition: all 0.5s !important;
+}
+
+.managerMainWrapper .card:hover {
+    transform: translateY(-5px);
+}
+
+.managerMainWrapper .card i {
+    font-size: 50px;
+    color: #188ef4;
+}
+
+.managerMainWrapper .card h3 {
+    font-size: 30px;
+    color: #3e4555;
+}
+
+.pageLoader {
+    border: 5px solid #f3f3f3;
+    /* Light grey */
+    border-top: 5px solid #188ef4;
+    /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 0.5s linear infinite;
+    margin-left: 50%;
+    margin-top: 40%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .pageLoader {
+        margin-left: 45%;
+        margin-top: 100%;
+    }
+}

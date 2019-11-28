@@ -1,0 +1,338 @@
+<div id="stockManagement">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Stock Management</h1>
+            <h6 class="card-subtitle">You can add, remove, and edit the goods in the stock.</h6>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr class="text-center">
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price/item</th>
+                            <th>Edit / Fire</th>
+                        </tr>
+                    </thead>
+                    <tbody id="stockTableBody" class="text-center">
+                        <tr>
+                            <td class="stockItemName">Meat</td>
+                            <td class="stockItemQuantity">75 Kg</td>
+                            <td class="stockItemPrice">112 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Tomatos</td>
+                            <td class="stockItemQuantity">67 Kg</td>
+                            <td class="stockItemPrice">5 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Potatos</td>
+                            <td class="stockItemQuantity">39 Kg</td>
+                            <td class="stockItemPrice">4.5 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Yougart</td>
+                            <td class="stockItemQuantity">22 Kg</td>
+                            <td class="stockItemPrice">12 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Rice</td>
+                            <td class="stockItemQuantity">63 Kg</td>
+                            <td class="stockItemPrice">22 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Apples</td>
+                            <td class="stockItemQuantity">48 Kg</td>
+                            <td class="stockItemPrice">15 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Bananas</td>
+                            <td class="stockItemQuantity">31 Kg</td>
+                            <td class="stockItemPrice">13 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Tuna</td>
+                            <td class="stockItemQuantity">80 Kg</td>
+                            <td class="stockItemPrice">58 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Ckicken</td>
+                            <td class="stockItemQuantity">140 Kg</td>
+                            <td class="stockItemPrice">76 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Pasta</td>
+                            <td class="stockItemQuantity">294 Kg</td>
+                            <td class="stockItemPrice">12 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Mango</td>
+                            <td class="stockItemQuantity">32 Kg</td>
+                            <td class="stockItemPrice">22 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Grapes</td>
+                            <td class="stockItemQuantity">42 Kg</td>
+                            <td class="stockItemPrice">11 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Watermelon</td>
+                            <td class="stockItemQuantity">63 Kg</td>
+                            <td class="stockItemPrice">25 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Lemon</td>
+                            <td class="stockItemQuantity">81 Kg</td>
+                            <td class="stockItemPrice">12.5 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Carrots</td>
+                            <td class="stockItemQuantity">51 Kg</td>
+                            <td class="stockItemPrice">6.75 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Spoons</td>
+                            <td class="stockItemQuantity">250</td>
+                            <td class="stockItemPrice">15 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Forks</td>
+                            <td class="stockItemQuantity">340</td>
+                            <td class="stockItemPrice">15 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Knives</td>
+                            <td class="stockItemQuantity">340</td>
+                            <td class="stockItemPrice">18 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Dishes</td>
+                            <td class="stockItemQuantity">568</td>
+                            <td class="stockItemPrice">22.5 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stockItemName">Meal Dishes</td>
+                            <td class="stockItemQuantity">140</td>
+                            <td class="stockItemPrice">37.5 EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStockItem" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="removeStockItem" data-toggle="modal" href="#removeModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <a id="addBtn" class="btn btn-info float-right m-r-20" data-toggle="modal" href="#addModal"
+                role="button"><span>Add items</span></a>
+        </div>
+    </div>
+
+
+    <!-- ADD MODAL -->
+    <div id="addModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Add Stock Items</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body px-4">
+                    <form class="form" role="form" autocomplete="off" id="formAdd" novalidate="" method="POST">
+                        <div class="form-group">
+                            <label for="addItemName">Name</label>
+                            <input type="text" class="form-control form-control-lg" name="addItemName"
+                                id="addItemName" required="">
+                            <div class="invalid-feedback">Oops, you missed this one.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="addItemQuantity">Quantity</label>
+                            <input type="text" class="form-control form-control-lg" name="addItemQuantity"
+                                id="addItemQuantity" required="">
+                            <div class="invalid-feedback">Oops, you missed this one.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="addItemPrice">Price/Item</label>
+                            <input type="text" class="form-control form-control-lg" name="addItemPrice"
+                                id="addItemPrice" required="">
+                            <div class="invalid-feedback">Oops, you missed this one.</div>
+                        </div>
+                        <div class="form-group p-t-10">
+                            <a href="#" class="btn btn-info btn-lg float-left" id="btnAdd">Add</a>
+                            <button class="btn cancelBtn btn-outline-secondary btn-lg float-right" data-dismiss="modal"
+                                aria-hidden="true">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FIRE MODAL -->
+    <div id="removeModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Remove Stock Items</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body px-4">
+                    <form class="form" role="form" autocomplete="off" id="formRemove" novalidate="" method="POST">
+                        <h2 class="text-center">Are you sure?</h2>
+                        <div class="form-group p-t-10">
+                            <a href="#" class="btn btn-danger btn-lg float-left" id="btnRemove">Yes, Remove!</a>
+                            <button class="btn cancelBtn btn-outline-secondary btn-lg float-right" data-dismiss="modal"
+                                aria-hidden="true">No, Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- EDIT MODAL -->
+    <div id="editModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Edit Stock Items</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body px-4">
+                    <form class="form" role="form" autocomplete="off" id="formEdit" novalidate="" method="POST">
+                        <div class="form-group">
+                            <label for="editItemQuantity">Edit Quantity</label>
+                            <input type="text" class="form-control form-control-lg" name="editItemQuantity"
+                                id="editItemQuantity">
+                        </div>
+                        <div class="form-group">
+                            <label for="editItemPrice">Edit Price/Item</label>
+                            <input type="text" class="form-control form-control-lg" name="editItemPrice"
+                                id="editItemPrice">
+                        </div>
+                        <div class="form-group p-t-10">
+                            <a href="#" class="btn btn-success btn-lg float-left" id="btnEdit">Edit</a>
+                            <button class="btn cancelBtn btn-outline-secondary btn-lg float-right" data-dismiss="modal"
+                                aria-hidden="true">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

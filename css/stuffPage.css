@@ -1,0 +1,78 @@
+#stuffManagement .table .fa {
+    font-size: 20px;
+}
+
+#stuffManagement .card .card-title {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+}
+
+#stuffManagement #hireBtn {
+    padding: 10px 40px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+#stuffManagement .cancelBtn {
+    color: #3e4555;
+    border-color: #3e4555;
+}
+
+#stuffManagement .cancelBtn:hover {
+    background: #3e4555;
+    color: white;
+}
+
+#stuffManagement #hireModal .btn-group .btn {
+    /* width: 450px !important; */
+    border-color: rgba(34, 34, 34, 0.158);
+}
+
+#stuffManagement #fireModal h2 {
+    margin: 10px 0 40px 0;
+}
+
+#stuffManagement #hireModal .btn-group .roleInput {
+    width: 388px !important;
+}
+
+#stuffManagement #hireModal .btn-group .dropdown-item {
+    font-size: 14px;
+}
+
+#stuffManagement #editModal .btn-group input {
+    width: 387px;
+}
+
+#stuffManagement #btnHire,
+#stuffManagement #btnFire {
+    padding: 10px 50px;
+}
+
+#stuffManagement .cancelBtn {
+    padding: 10px 30px;
+}
+
+@media (max-width: 768px) {
+
+    #stuffManagement #editModal .btn-group input,
+    #stuffManagement #hireModal .btn-group .roleInput {
+        width: 282px !important;
+    }
+
+    #stuffManagement .cancelBtn,
+    #stuffManagement #btnRemove {
+        padding: 10px 20px;
+    }
+
+    #stuffManagement .card {
+        width: 103%;
+    }
+
+    #stuffManagement #hireBtn {
+        float: left !important;
+        margin-left: 34%;
+    }
+}

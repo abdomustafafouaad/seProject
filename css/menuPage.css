@@ -1,0 +1,52 @@
+#menuManagement .ribbon-cont.offer, #menuManagement .ribbon-cont.ribbonSpecialities {
+    margin-top: 15px;
+}
+
+#menuManagement .editOffer i,
+#menuManagement .removeOffer i{
+    font-size: 24px !important;
+}
+
+#menuManagement .editOffer{
+    margin-left: 0px;
+    margin-right: 20px;
+    margin: 15px 20px 0 -10px;
+}
+
+#menuManagement .editOffer{
+    margin-left: -10px;
+    margin-right: 20px;
+    margin: 15px 20px 0 -10px;
+}
+
+#menuManagement .offersSection {
+    padding-top: 20px;
+    padding-bottom: 0;
+    background-color: #fff;
+}
+
+#menuManagement .offersSection:hover {
+    transform: none;
+}
+
+#menuManagement .offersSection .card-title {
+    font-family: 'Gabriela', serif;
+    font-weight: 700;
+    color: #3e4555;
+}
+
+#menuManagement .offersSection .card-title span{
+    color: #188ef4;
+}
+
+#menuManagement .offersSection .offerName {
+    font-family: 'Gabriela', serif;
+}
+
+#menuManagement .offersSection .offerName span{
+    color: #ef0031;
+}
+
+#menuManagement .offersSection .offerPrice {
+    font-family: 'Gabriela', serif;
+}

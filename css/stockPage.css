@@ -1,0 +1,83 @@
+#stockManagement .table .fa {
+    font-size: 20px;
+}
+
+#stockManagement .card .card-title {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+}
+
+#stockManagement #addBtn {
+    padding: 10px 40px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+#stockManagement .cancelBtn {
+    color: #3e4555;
+    border-color: #3e4555;
+}
+
+#stockManagement .cancelBtn:hover {
+    background: #3e4555;
+    color: white;
+}
+
+#stockManagement #addModal .btn-group .btn {
+    /* width: 450px !important; */
+    border-color: rgba(34, 34, 34, 0.158);
+}
+
+#stockManagement #removeModal h2 {
+    margin: 10px 0 40px 0;
+}
+
+#stockManagement #addModal .btn-group .roleInput {
+    width: 388px !important;
+}
+
+#stockManagement #addModal .btn-group .dropdown-item {
+    font-size: 14px;
+}
+
+#stockManagement #editModal .btn-group input {
+    width: 387px;
+}
+
+#stockManagement #btnAdd,
+#stockManagement #btnRemove {
+    padding: 10px 50px;
+}
+
+#stockManagement .cancelBtn {
+    padding: 10px 30px;
+}
+
+@media (max-width: 768px) {
+
+    #stockManagement #editModal .btn-group input,
+    #stockManagement #addModal .btn-group .roleInput {
+        width: 282px !important;
+    }
+
+    #stockManagement .cancelBtn,
+    #stockManagement #btnRemove {
+        padding: 10px 20px;
+    }
+
+    #stockManagement .card {
+        width: 110%;
+        margin-left: -15px;
+    }
+
+    #stockManagement .table {
+        margin-left: -5px;
+    }
+
+    #stockManagement #addBtn {
+        float: left !important;
+        margin-left: 29%;
+    }
+}
