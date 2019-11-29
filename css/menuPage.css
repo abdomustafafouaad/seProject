@@ -1,0 +1,109 @@
+#menuManagement .ribbon-cont.offer,
+#menuManagement .ribbon-cont.ribbonSpecialities {
+    margin-top: 15px;
+}
+
+#menuManagement .offersSection .editOffer i,
+#menuManagement .offersSection .removeOffer i {
+    font-size: 24px;
+}
+
+#menuManagement .offersSection .editOffer {
+    margin-left: -10px;
+    margin-right: 20px;
+    margin: 15px 20px 0 -10px;
+}
+
+#menuManagement .offersSection {
+    padding-top: 20px;
+    padding-bottom: 0;
+    background-color: #fff;
+}
+
+#menuManagement .offersSection:hover {
+    transform: none;
+}
+
+#menuManagement .offersSection .card-title {
+    font-family: 'Gabriela', serif;
+    font-weight: 700;
+    color: #3e4555;
+}
+
+#menuManagement .offersSection .card-title span {
+    color: #188ef4;
+}
+
+#menuManagement .offersSection .offerName {
+    font-family: 'Gabriela', serif;
+}
+
+#menuManagement .offersSection .offerName span {
+    color: #ef0031;
+}
+
+#menuManagement .offersSection h4 {
+    font-family: 'Gabriela', serif;
+}
+
+#menuManagement .menuSection {
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#menuManagement .menuSection .heading h3 {
+    font-family: 'Gabriela', serif;
+    font-weight: 700;
+    color: #3e4555;
+    font-size: 32px;
+}
+
+#menuManagement .menuSection .heading h3 span {
+    color: #188ef4;
+}
+
+#menuManagement .menuSection .sided-90x h5,
+#menuManagement .menuSection .sided-90x p {
+    font-family: 'Gabriela', serif;
+}
+
+#menuManagement .menuSection .menuItemBtns {
+    margin-top: -23px;
+}
+
+#menuManagement .menuSection .menuItemBtns i {
+    font-size: 16px !important;
+}
+
+#menuManagement .offersSection #addOfferBtn {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #1F8330;
+    padding: 5px 10px;
+    border-color: #1F8330;
+    margin-top: -50px;
+}
+
+#menuManagement .menuSection #addMenuItemBtn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin-top: -45px;
+}
+
+#menuManagement #removeMenuItemModal .modal-body h2,
+#menuManagement #removeOfferModal .modal-body h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 10px 0 30px 0;
+}
+
+#menuManagement #addOfferModal .btn-group{
+    width: 100%;
+}
+
+#menuManagement .modal-header h3{
+    font-size: 20px !important;
+    font-weight: 600;
+}

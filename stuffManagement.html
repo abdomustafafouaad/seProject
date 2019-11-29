@@ -1,0 +1,237 @@
+<div id="stuffManagement">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">Staff Members</h1>
+            <h6 class="card-subtitle">You can hire, fire, and edit stuff members' salaries and roles.</h6>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr class="text-center">
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th>Salary</th>
+                            <th>Edit / Fire</th>
+                        </tr>
+                    </thead>
+                    <tbody id="stuffTableBody" class="text-center">
+                        <tr>
+                            <td class="stuffMemberName">Salah Marzouk</td>
+                            <td class="stuffMemberRole">Accountant</td>
+                            <td><span class="stuffMemberSalary">2500</span> EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStuffMember" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="fireStuffMember" data-toggle="modal" href="#fireModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stuffMemberName">Zaki Ibrahim</td>
+                            <td class="stuffMemberRole">Chef</td>
+                            <td><span class="stuffMemberSalary">4000</span> EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStuffMember" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="fireStuffMember" data-toggle="modal" href="#fireModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stuffMemberName">Ibrahim Saeed</td>
+                            <td class="stuffMemberRole">Chef Assistant</td>
+                            <td><span class="stuffMemberSalary">3000</span> EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStuffMember" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="fireStuffMember" data-toggle="modal" href="#fireModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stuffMemberName">Mohamed El-Sebaay</td>
+                            <td class="stuffMemberRole">Chef Assistant</td>
+                            <td><span class="stuffMemberSalary">2800</span> EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStuffMember" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="fireStuffMember" data-toggle="modal" href="#fireModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stuffMemberName">Sara Mahmoud</td>
+                            <td class="stuffMemberRole">Receptionist</td>
+                            <td><span class="stuffMemberSalary">2350</span> EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStuffMember" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="fireStuffMember" data-toggle="modal" href="#fireModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stuffMemberName">Ahmed Samir</td>
+                            <td class="stuffMemberRole">Waiter</td>
+                            <td><span class="stuffMemberSalary">2000</span> EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStuffMember" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="fireStuffMember" data-toggle="modal" href="#fireModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stuffMemberName">Mohamed Hany</td>
+                            <td class="stuffMemberRole">Waiter</td>
+                            <td><span class="stuffMemberSalary">2100</span> EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStuffMember" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="fireStuffMember" data-toggle="modal" href="#fireModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="stuffMemberName">Youssef Nabil</td>
+                            <td class="stuffMemberRole">Waiter</td>
+                            <td><span class="stuffMemberSalary">2000</span> EGP</td>
+                            <td class="text-nowrap">
+                                <a class="editStuffMember" data-toggle="modal" href="#editModal" role="button"> <i
+                                        class="fa fa-pencil text-inverse m-r-10"></i> </a>
+                                <a class="fireStuffMember" data-toggle="modal" href="#fireModal" role="button"><i
+                                        class="fa fa-close text-danger"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <a id="hireBtn" class="btn btn-info float-right m-r-20" data-toggle="modal" href="#hireModal"
+                role="button"><span>Hire</span></a>
+        </div>
+    </div>
+
+
+    <!-- HIRE MODAL -->
+    <div id="hireModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Hire Stuff Member</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body px-4">
+                    <form class="form" role="form" autocomplete="off" id="formHire" novalidate="" method="POST">
+                        <div class="form-group">
+                            <label for="hireStaffName">Name</label>
+                            <input type="text" class="form-control form-control-lg" name="hireStaffName"
+                                id="hireStaffName" required="">
+                            <div class="invalid-feedback">Oops, you missed this one.</div>
+                        </div>
+                        <div class="form-group">
+                            <div class="btn-group">
+                                <input disabled type="text" class="form-control form-control-lg roleInput"
+                                    placeholder="Role" id="hireStaffRole">
+                                <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item roleItemChosen" href="#">Accountant</a>
+                                    <a class="dropdown-item roleItemChosen" href="#">Chef</a>
+                                    <a class="dropdown-item roleItemChosen" href="#">Chef Assistant</a>
+                                    <a class="dropdown-item roleItemChosen" href="#">Receptionist</a>
+                                    <a class="dropdown-item roleItemChosen" href="#">Waiter</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="hireStaffSalary">Salary</label>
+                            <input type="text" class="form-control form-control-lg" name="hireStaffSalary"
+                                id="hireStaffSalary" required="">
+                            <div class="invalid-feedback">Oops, you missed this one.</div>
+                        </div>
+                        <div class="form-group p-t-10">
+                            <a href="#" class="btn btn-info btn-lg float-left" id="btnHire">Hire</a>
+                            <button class="btn cancelBtn btn-outline-secondary btn-lg float-right" data-dismiss="modal"
+                                aria-hidden="true">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FIRE MODAL -->
+    <div id="fireModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Fire Stuff Member</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body px-4">
+                    <form class="form" role="form" autocomplete="off" id="formFire" novalidate="" method="POST">
+                        <h2 class="text-center">Are you sure?</h2>
+                        <div class="form-group p-t-10">
+                            <a href="#" class="btn btn-danger btn-lg float-left" id="btnFire">Yes, Fire!</a>
+                            <button class="btn cancelBtn btn-outline-secondary btn-lg float-right" data-dismiss="modal"
+                                aria-hidden="true">No, Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- EDIT MODAL -->
+    <div id="editModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Edit Stuff Member</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body px-4">
+                    <form class="form" role="form" autocomplete="off" id="formEdit" novalidate="" method="POST">
+                        <div class="form-group">
+                            <label for="editStaffName">Edit Name</label>
+                            <input type="text" class="form-control form-control-lg" name="editStaffName"
+                                id="editStaffName">
+                        </div>
+                        <div class="form-group">
+                            <div class="btn-group">
+                                <input disabled type="text" class="form-control form-control-lg roleInput"
+                                    placeholder="Edit Role" id="editStaffRole">
+                                <button type="button" class="btn btn-outline-success dropdown-toggle dropdown-toggle-split"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item roleItemChosen" href="#">Accountant</a>
+                                    <a class="dropdown-item roleItemChosen" href="#">Chef</a>
+                                    <a class="dropdown-item roleItemChosen" href="#">Chef Assistant</a>
+                                    <a class="dropdown-item roleItemChosen" href="#">Receptionist</a>
+                                    <a class="dropdown-item roleItemChosen" href="#">Waiter</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="editStaffSalary">Edit Salary</label>
+                            <input type="text" class="form-control form-control-lg" name="editStaffSalary"
+                                id="editStaffSalary">
+                        </div>
+                        <div class="form-group p-t-10">
+                            <a href="#" class="btn btn-success btn-lg float-left" id="btnEdit">Edit</a>
+                            <button class="btn cancelBtn btn-outline-secondary btn-lg float-right" data-dismiss="modal"
+                                aria-hidden="true">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

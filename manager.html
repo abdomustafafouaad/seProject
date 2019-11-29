@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <title>Nineteen Restaurant - Management app</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- This is for the animation CSS -->
+    <link href="assets/node_modules/aos/dist/aos.css" rel="stylesheet">
+    <!-- This page slider css -->
+    <link href="assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+    <link href="assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
+    <!-- This css we made it from our predefine componenet 
+        we just copy that css and paste here you can also do that -->
+    <link href="css/demo.css" rel="stylesheet">
+    <!-- Common style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/yourstyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main-wrapper" class="managerMainWrapper">
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <div class="topbar">
+            <div class="header16 po-relative">
+                <div class="header16-background"></div>
+                <!-- Infobar  -->
+                <div class="h16-infobar">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg h16-info-bar">
+                            <a class="navbar-brand"><img src="images/logo-2.png" alt="Logo"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h16-info"
+                                aria-controls="h16-info" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="sl-icon-options-vertical"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="h16-info">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link">
+                                            <div class="display-6 m-r-10"><i class="icon-Over-Time text-info"></i>
+                                            </div>
+                                            <div><small>Wed to Mon: <span
+                                                        class="text-white font-16 font-medium m-l-5">1:00 pm - 12:00
+                                                        am</span>
+                                                    <br>Tuesday: <span
+                                                        class="font-medium text-danger font-16 m-l-5">Closed</span></small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link">
+                                            <div class="display-6 m-r-10"><i class="icon-Phone-2 text-info"></i></div>
+                                            <div><small>Book Table</small>
+                                                <h5 class="font-bold">703 (123) 4567</h5>
+                                            </div>
+                                        </a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Navbar  -->
+                <div class="h16-navbar">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg h16-nav">
+                            <a class="hidden-lg-up">Navigation</a>
+                            <button class="navbar-toggler text-white" type="button" data-toggle="collapse"
+                                data-target="#header16" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="ti-menu"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="header16">
+                                <div class="hover-dropdown">
+                                    <ul class="navbar-nav" id="mainNavbar">
+                                        <li class="nav-item homeBtn active"><a class="nav-link" href="#">Home</a></li>
+                                        <li class="nav-item stockManageBtn"><a class="nav-link" href="#">Stock Management</a></li>
+                                        <li class="nav-item stuffManageBtn"><a class="nav-link" href="#">Staff Management</a></li>
+                                        <li class="nav-item customerServiceBtn"><a class="nav-link" href="#">Customer Services</a></li>
+                                        <li class="nav-item menuManageBtn"><a class="nav-link" href="#">Menu Management</a></li>
+                                    </ul>
+                                </div>
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item search"><a class="nav-link" href="#"><span class="font-medium font-14">RESERVE
+                                            TABLE</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid container">
+                <div id="managerHome">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-12 wrap-feature2-box">
+                            <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
+                                <i class="ti-truck text-center m-t-40 m-b-20"></i>
+                                <div class="card-body text-center">
+                                    <h3 class="font-medium text-uppercase">Stock Management</h3>
+                                    <p class="font-16 m-t-20 text-center">Adding, removing, and monitoring the goods in
+                                        stock.</p>
+                                    <button class="btn btn-outline-info font-medium m-t-10 m-b-20 stockManageBtn">Manage
+                                        Stocks</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12">
+                            <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
+                                <i class="ti-id-badge text-danger text-center m-t-40 m-b-20"></i>
+                                <div class="card-body text-center">
+                                    <h3 class="font-medium text-uppercase">Staff Management</h3>
+                                    <p class="font-16 m-t-20 text-center">Hiring, firing, and managing stuff members'
+                                        salaries and roles.</p>
+                                    <button
+                                        class="btn btn-outline-danger font-medium m-t-10 m-b-20 stuffManageBtn">Manage
+                                        Stuff</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-12">
+                            <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
+                                <i class="ti-user text-success text-center m-t-40 m-b-20"></i>
+                                <div class="card-body text-center">
+                                    <h3 class="font-medium text-uppercase">Customer Services</h3>
+                                    <p class="font-16 m-t-20 text-center">Reserving, ordering, and getting feedback from
+                                        customers.</p>
+                                    <button class="btn btn-outline-success font-medium m-t-10 m-b-20 customerManageBtn">Customer
+                                        Services</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12">
+                            <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
+                                <i class="ti-book text-warning text-center m-t-40 m-b-20"></i>
+                                <div class="card-body text-center">
+                                    <h3 class="font-medium text-uppercase">Menu Management</h3>
+                                    <p class="font-16 m-t-20 text-center">Adding, removing, and displaying the meals in
+                                        the menu.</p>
+                                    <button class="btn btn-outline-warning font-medium m-t-10 m-b-20 menuManageBtn">Manage
+                                        Menu</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="otherPages">
+                    <div id="pageLoader" class="align-self-center"></div>
+                </div>
+                <!-- End Container-fluid -->
+            </div>
+            <!-- End Page Wrapper  -->
+        </div>
+        <!-- End Main Wrapper -->
+    </div>
+
+
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="assets/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="assets/node_modules/popper/dist/popper.min.js"></script>
+    <script src="assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- This is for the animation -->
+    <script src="assets/node_modules/aos/dist/aos.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <script src="js/managerPage.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.js"></script>
+    <script src="assets/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+/***************
+Scrollbar
+***************/
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #188ef4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #316ce8;
+}
+
+
+.main_wrapper {
+    width: 100vw;
+    height: 100vh;
+}

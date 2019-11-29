@@ -1,0 +1,122 @@
+/*******************
+Header 5
+*******************/
+.header5 .navbar-brand img {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.h5-nav-bar {
+    padding: 0px 0px;
+    width: 100%;
+    left: 0px;
+}
+
+.h5-nav-bar .navbar-nav .nav-link {
+    color: #263238;
+    font-size: 14px;
+    padding: 25px 18px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.h5-nav-bar .navbar-nav .nav-item:hover .nav-link {
+    color: #188ef4;
+}
+
+.h5-nav-bar .rounded-button {
+    border-radius: 60px;
+    padding: 10px 30px;
+    display: inline-block;
+    border: 2px solid #263238;
+    position: absolute;
+    right: 0px;
+    font-size: 14px;
+}
+
+.h5-nav-bar .rounded-button a {
+    color: #263238;
+    font-weight: 500;
+}
+
+.h5-nav-bar .rounded-button a:hover {
+    color: #188ef4;
+}
+
+@media (max-width: 1023px) {
+    .h5-nav-bar {
+        padding: 15px 0px;
+        position: relative;
+    }
+
+    .h5-nav-bar .navbar-collapse {
+        background: #263238;
+        padding: 15px 15px 20px;
+        border-radius: 4px;
+        -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+        box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+        z-index: 10;
+    }
+
+    .h5-nav-bar .rounded-button {
+        position: relative;
+    }
+
+    .h5-nav-bar .navbar-nav .nav-link {
+        color: #ffffff;
+        line-height: 30px;
+    }
+
+    .header5 .navbar-toggler {
+        display: none;
+    }
+}
+
+/*******************
+  Static slide 10
+  *******************/
+.static-slider10 {
+    padding: 18% 0;
+    background-size: cover;
+    background-position: center center;
+    margin-top: -23px;
+}
+
+.static-slider10 h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'Gabriela', serif;
+    font-weight: 700;
+    color: #3e4555;
+}
+
+.static-slider10 h1 span {
+    color: #188ef4;
+}
+
+.static-slider10 h1 span.nineteen {
+    color: #188ef4;
+    font-size: 75%;
+}
+
+.static-slider10 h1 span img {
+    width: 60%;
+}
+
+
+
+@media (max-width: 768px) {
+    .static-slider10 .title {
+        margin-top: 150px;
+    }
+
+    .static-slider10 .title img {
+        width: 50%;
+    }
+
+    .static-slider10 {
+        height: 100vh;
+        margin-top: 0;
+
+    }
+}
