@@ -103,7 +103,7 @@
     width: 100%;
 }
 
-#menuManagement .modal-header h3{
+.modal-header h3{
     font-size: 20px !important;
     font-weight: 600;
 }

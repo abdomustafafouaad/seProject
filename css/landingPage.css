@@ -79,7 +79,7 @@ Header 5
     padding: 18% 0;
     background-size: cover;
     background-position: center center;
-    margin-top: -23px;
+    margin-top: -30px;
 }
 
 .static-slider10 h1 {
@@ -103,7 +103,32 @@ Header 5
     width: 60%;
 }
 
+.static-slider10 #signUpBtn {
+    background-color: #3e4555;
+}
 
+#btnSignUp {
+    background-color: #3e4555;
+    transition: all 0.25s;
+}
+
+#btnSignUp:hover {
+    background-color: #282d38;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+.loginPageAlerts {
+    position: absolute;
+    width: 80%;
+    z-index: 1000;
+    text-align: center;
+    top: 4%;
+    left: 28%;
+    display: none;
+}
 
 @media (max-width: 768px) {
     .static-slider10 .title {
